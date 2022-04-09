@@ -8,5 +8,4 @@ RUN curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add - && \
 
 RUN gem install rails -v 6.0.4 && gem install bundler -v 2.2.17
 
-WORKDIR /app/hello_app
-
+WORKDIR /app
