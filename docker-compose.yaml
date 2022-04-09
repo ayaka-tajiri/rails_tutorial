@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+        rails:
+                image: ruby:3.1.1
+                ports: 
+                        - "3011:3000"
+                tty: true
+                volumes:
+                        - .:/app
+
